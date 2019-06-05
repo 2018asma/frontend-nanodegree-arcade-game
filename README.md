@@ -1,27 +1,16 @@
-# Ben's Classic Aracade Game
+# What Is Aracade Game
 
-In my Front End Udacity nanodegree, I had to code a classic arcade game based on the game Frogger. The point of the game is to get your character from the grass over the road and into the water. The challenge is to avoid the bugs that travel on the road. If a bug is touched, the character is reset back at the beginning. Upon reaching the water, the user is also reset back to the beginning.
-
+In this game you have a Player and Enemies (bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
 
 
 
 
 ## How to Play:
-The goal is to match is to jump into the water. 
-Click in the following link to play: https://ul1ra.github.io/ClassicArcadeGame/
-
-1. Using the arrow keys on your keyboard, move upwards.
-
-2. Try and avoid the cockroaches and try and jump into the water.
-
-3. If you made it in the water, you can play again. If you collided with a cockroach, start again! 
+1- The player can move left, right, up and down
+2- The enemies move at varying speeds on the paved block portion of the game board
+3- Once a the player collides with an enemy, the game is reset and the player moves back to the starting square
+4- Once the player reaches the water (i.e., the top of the game board), the game is won
+Click Here to play 
 
 
-## Tools Used: 
 
-* Getting started Udacity excersize: 
-  * https://github.com/udacity/frontend-nanodegree-arcade-game
-  
-
-## Inspiration
-* Collision function: https://stackoverflow.com/questions/2440377/javascript-collision-detection
